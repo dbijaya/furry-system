@@ -1,2 +1,2 @@
 import { Component } from "react";
-import App from './Component/App';
+import App from './components/App';

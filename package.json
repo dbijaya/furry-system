@@ -4,8 +4,8 @@
   "description": "a Django-React integrated web application.",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack --mode development ./leadmanager/frontend/src/index.js --output ./leadmanager/frontend/static/frontend/main.js",
-    "build": "webpack --mode production ./leadmanager/frontend/src/index.js --output ./leadmanager/frontend/static/frontend/main.js" 
+    "dev": "webpack --mode development --entry ./frontend/src/index.js -o ./frontend/static/frontend/main.js",
+    "build": "webpack --mode production ./furry-system/frontend/src/index.js -o ./frontend/static/frontend/main.js"
   },
   "repository": {
     "type": "git",
